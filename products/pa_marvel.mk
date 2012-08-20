@@ -6,6 +6,7 @@ PARANOID_BOOTANIMATION_NAME := HDPI
    
 # include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
+include device/htc/marvel_pa/marvel_pa.mk
 
 # Inherit CM9 device configuration
 include $(call all-subdir-makefiles)
