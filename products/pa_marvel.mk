@@ -10,7 +10,7 @@ include device/htc/marvel_pa/marvel_pa.mk
 
 # Inherit CM9 device configuration
 include $(call all-subdir-makefiles)
-$(call inherit-product, device/htc/marvel/cm.mk)
+$(call inherit-product, device/htc/marvel_pa/cm.mk)
     
 PRODUCT_NAME := pa_marvel
     
