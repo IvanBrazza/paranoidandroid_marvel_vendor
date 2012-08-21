@@ -46,3 +46,5 @@ com.cyanogenmod.trebuchet.dpi=%rom_mid_base
 com.cyanogenmod.trebuchet.mode=1
 com.andrew.apollo.dpi=%rom_mid_base
 com.andrew.apollo.mode=1
+com.android.vending.dpi=160
+com.android.vending.mode=1
