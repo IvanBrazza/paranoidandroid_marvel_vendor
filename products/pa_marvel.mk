@@ -3,6 +3,9 @@ ifeq (pa_marvel,$(TARGET_PRODUCT))
  
 # OVERLAY_TARGET adds overlay asset source
 OVERLAY_TARGET := pa_mdpi
+
+# Define PA bootanimation size
+PARANOID_BOOTANIMATION_NAME := MDPI
    
 # include ParanoidAndroid common configuration
 include vendor/pa/config/pa_common.mk
